@@ -4,18 +4,24 @@ body {
 
 h1 {
     color: black;
-    text-decoration:underline
+    text-decoration:underline;
 }
 
 h2 {
     color: black;
-    font-family: courier;
+    font-family: courier, monospace;
     font-size: 14px;
     text-decoration:underline
 }
 /* this is a class selector */
 .banner {
     margin-bottom: 20px;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+    background-color: #aaaaaa;
 }
 
 /* this is a type selector */
@@ -26,7 +32,7 @@ p {
 }
 
 img {
-    border: 5px black;
+    border: 5px solid #000000;
 }
 
 /* descendent selector; paragraphs inside of aside elements should be smaller than standard text */
