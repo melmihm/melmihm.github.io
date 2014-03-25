@@ -38,4 +38,9 @@ img {
 /* descendent selector; paragraphs inside of aside elements should be smaller than standard text */
 aside p {
     font-size: 12px;
+    float: right;
+}
+
+aside {
+    width: 50%;
 }
