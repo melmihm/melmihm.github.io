@@ -1,5 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif+Caption);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
+
 body {
-    background-color: #ffffff;   
+    background-color: #ffffff;
+    font-family: 'PT Serif Caption', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Carrois Gothic', sans-serif;
 }
 
 h1 {
@@ -27,7 +35,6 @@ nav a {
 /* this is a type selector */
 p {
     color: black;
-    font-family: courier;
     font-size: 16px;
 }
 
@@ -42,6 +49,22 @@ aside p {
 }
 
 aside {
-    width: 50%;
+    width: 30%;
     float: right;
+    margin-left: 5%;
+    border: 1px solid red;
 }
+
+aside img {
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+
+    aside {
+        width: 45%;
+    }
+    
+}
+
