@@ -1,0 +1,35 @@
+body {
+    background-color: white;   
+}
+
+h1 {
+    color: black;
+    text-decoration:underline
+}
+
+h2 {
+    color: black;
+    font-family: courier;
+    font-size: 14px;
+    text-decoration:underline
+}
+/* this is a class selector */
+.banner {
+    margin-bottom: 20px;
+}
+
+/* this is a type selector */
+p {
+    color: black;
+    font-family: courier;
+    font-size: 16px;
+}
+
+img {
+    border: 5px black;
+}
+
+/* descendent selector; paragraphs inside of aside elements should be smaller than standard text */
+aside p {
+    font-size: 12px;
+}
