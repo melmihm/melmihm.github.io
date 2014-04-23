@@ -29,6 +29,15 @@ img {
     border: 5px black;
 }
 
+a {
+    text-decoration:underline;
+    color: #000000;
+}
+
+a:hover {
+    color: #8a8ae6;
+}
+
 /* descendent selector; paragraphs inside of aside elements should be smaller than standard text */
 aside p {
     font-size: 12px;
